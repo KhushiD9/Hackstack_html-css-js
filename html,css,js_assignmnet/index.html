@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Listing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Roboto:wght@300;400;500&family=Sen:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!-- logo container to put logo itself -->
+            <div class="logo-container">
+              <i class="fa-solid fa-eye movie-icon"></i>
+                <div class="icon">MOVIES</div>
+            </div>
+            <!-- all the menu items will be present -->
+            <div class="menu-container">
+                <ul class="menu-list">
+                  <li class="items">Home</li>
+                  <li class="items">Movies</li>
+                  <li class="items">Series</li>
+                  <li class="items">Web Shows</li>
+                  <li class="items">Trend</li>
+                  <li class="items">Popular</li>
+                </ul>
+              </div>
+              <!-- section for serch bar  -->
+              <div class="search-container">
+                <div class="search-element">
+                  <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                  <form action="" id="form">
+                  <input type="text" class="search" placeholder="Search Movie Title" id="movie-search-box">
+                </form>
+                </div>
+              </div>
+              <!-- profile section-->
+              <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpeg" alt="profile-pic">
+                <div class="profile-details-container">
+                  <i class="fa-solid fa-sort-down"></i>
+                  <i class="fa-solid fa-bell bell-icon"></i>          
+                  <i class="fa-solid fa-heart heart"></i>
+                  <i class="fa-solid fa-gear setting-icon"></i>
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="sidebar">
+            <ul class="menu">
+                <li class="menu-items">Search Results</li>
+                <li class="menu-items">All Teams</li>
+                <li class="menu-items">Core</li>
+                <li class="menu-items">Designers</li>
+                <li class="menu-items">Developers</li>
+                <li class="menu-items">Mentors</li>
+                <button class="add-button">ADD+</button>
+            </ul>  
+        </div>
+    </section>
+
+    <main id="main">
+        <div class="movie">
+            <img src="img/super_mario.jpg" alt="mario">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="img/super_mario.jpg" alt="mario">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
